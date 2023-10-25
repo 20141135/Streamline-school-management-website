@@ -1,0 +1,174 @@
+.home{
+    font-size:x-large;
+    font-weight: bolder;
+}
+.body{
+    color:black;
+}
+.nav-link{
+    color: black;
+}
+#school{
+    color:black;
+    
+    font-family:'Times New Roman', Times, serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Skranji', cursive;
+    text-shadow: 3px 3px 8px #FF0000;
+    /* font-size: xx-large; */
+    /* font-weight: 5000 px; */
+}
+.contact{
+    color: orange;
+    text-align: center;
+}
+/* .dashboard{
+    background-image: url('background.jpg');
+} */
+.content{
+transition-delay: 2s;
+}
+
+.animation{
+    /* margin-left: 30%; */
+    /* background-color: navy; */
+    /* margin-left: 35%; */
+    background-color: #291a46;
+
+}
+.detail{
+    margin-left:20%;
+}
+.more{
+    text-align: center;
+    color: orange;
+    /* padding-right: 300px; */
+}
+.icon{
+    color: #e4a11b;
+    text-align: center;
+}
+.title {
+    color: #e4a11b;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 2vw;
+    
+  }
+.card {
+    /* margin: auto; */
+    display: flex;
+    height: 30vh;
+    width: 40vh;
+    background-color: #291a46;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    margin-left: -30px;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  .sec{
+    text-align: center;
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+
+  }
+  .fas{
+    text-align: center;
+  }
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+  .bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 200px;
+  }
+  .fa-users:before {
+    content: "\f0c0";
+    margin-left: -10vw;
+}
+  
+  /* .emptybar {
+    background-color: #291a46;
+    width: 100%;
+    height: 100%; */
+    /* margin-top: 60px; */
+  /* } */
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 25%, rgba(217,147,0,1) 75%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+    /* margin-top: 60px; */
+  }
+  
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+.home-testimonial{
+    /* background-color: #231834; */
+    background-image: url(contact.jpg);
+    
+    height: 380px}
+.home-testimonial-bottom{background-color: #f8f8f8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 130px;top: 190px}
+.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}
+.home-testimonial h2{color: white;font-size: 28px;font-weight: 700}
+.testimonial-inner{position: relative;top: -174px}
+.testimonial-pos{position: relative;top: 24px}
+.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}
+.color-grey-3{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}
+.testimonial-inner img.tm-people{width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}
+.link-name{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+      color: #6c83a2 }
+.link-position{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;color: #6c83a2}
+.logo{
+    height: 50 px;
+    background-color: orange;
+    justify-content: center;
+    display: flex;
+    padding-left: 15px;
+    color: black;
+    text-align: center;
+}
+

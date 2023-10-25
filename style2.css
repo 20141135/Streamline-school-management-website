@@ -1,0 +1,25 @@
+.bg-image{
+    
+        /* background-color: red; For browsers that do not support gradients */
+        /* background-image: linear-gradient(to right,orange, skyblue, pink); */
+        color: black;
+        background-color:ghostwhite;
+        
+      
+}
+/* .hr{
+        height: 20px;
+        color: blue;
+
+} */
+.image{
+        background-image: linear-gradient(to right,pink, skyblue,orange); 
+}
+.video{
+        margin-top: 20%;
+}
+#video-carousel-example{
+        width: 50%;
+        display: flex;
+
+}

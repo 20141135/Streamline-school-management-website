@@ -1,0 +1,32 @@
+.card-img-top{
+    height: 150px;
+    width: 150px;
+    padding-left: 50px;
+}
+
+.head{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card{
+  
+  background-image: linear-gradient(30deg, rgb(148, 214, 235), rgb(245, 155, 215));
+  transition: transform .2s;
+ 
+}
+.card-img-top:hover{
+    
+    /* transition: 0.5s all ease-in-out; */
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.card-body{
+    padding-left: 50px;
+}
+
+.teacher{
+    background-color:ghostwhite;
+}
